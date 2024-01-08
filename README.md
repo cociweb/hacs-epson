@@ -37,37 +37,37 @@ sensor:
 ```
 
 
-host:
-  description: The host name or address of the Epson workforce printer
-  required: true
-  type: string
-monitored_conditions:
-  description: The cartridge colours to monitor.
-  required: true
-  type: list
-  keys:
-    black:
-      description: The black ink cartridge
-    photoblack:
-      description: The photo black ink cartridge (not supported by all printers).
-    yellow:
-      description: The yellow ink cartridge.
-    magenta:
-      description: The magenta (=red) ink cartridge.
-    cyan:
-      description: The cyan (=blue) ink cartridge.
-    clean:
-      description: The cleaning cartridge.
-protocol:
-  description: The type of the protocol: `HTTP` or `HTTPS`
-  required: false
-  type: string
-  default: http
-verify_ssl:
-  description: Verify the SSL chain or not.
-  required: false
-  type: boolean
-  default: false
+host:<br>
+&ensp; description: The host name or address of the Epson workforce printer<br>
+&ensp; required: true<br>
+&ensp; type: string <br>
+monitored_conditions:<br>
+&ensp; description: The cartridge colours to monitor.<br>
+&ensp; required: true<br>
+&ensp; type: list<br>
+&ensp; keys:<br>
+&ensp; &ensp; black:<br>
+&ensp; &ensp; &ensp; description: The black ink cartridge<br>
+&ensp; &ensp; photoblack:<br>
+&ensp; &ensp; &ensp; description: The photo black ink cartridge (not supported by all printers).<br>
+&ensp; &ensp; yellow:<br>
+&ensp; &ensp; &ensp; description: The yellow ink cartridge.<br>
+&ensp; &ensp; magenta:<br>
+&ensp; &ensp; &ensp; description: The magenta (=red) ink cartridge.<br>
+&ensp; &ensp; cyan:<br>
+&ensp; &ensp; &ensp; description: The cyan (=blue) ink cartridge.<br>
+&ensp; &ensp; clean:<br>
+&ensp; &ensp; &ensp; description: The cleaning cartridge.<br>
+protocol:<br>
+&ensp; description: The type of the protocol: `HTTP` or `HTTPS`<br>
+&ensp; required: false<br>
+&ensp; type: string<br>
+&ensp; default: http<br>
+verify_ssl:<br>
+&ensp; description: Verify the SSL chain or not.<br>
+&ensp; required: false<br>
+&ensp; type: boolean<br>
+&ensp; default: false<br>
 
 
 # Supported devices:
