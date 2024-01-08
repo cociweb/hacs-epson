@@ -9,12 +9,14 @@ Assistant.
 3) Restart Home Assistant
 4) add configuration to your `configuration.yaml`
 
-### HACS Insallation
-1) 
-[![Open HACS Dashboard and add the following repository at custom repository submenu in the 3-dotted menu on top right corner:](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/) [https://github.com/cociweb/hacs-epson](https://github.com/cociweb/hacs-epson)
-2) Search and Download Epson Printer component with HACS
-3) Restart Home Assistant
-4) add configuration to your `configuration.yaml`
+### HACS Installation
+1) Open HACS Dashboard and add the following repository at custom repository submenu in the 3-dotted menu on top right corner: [https://github.com/cociweb/hacs-epson](https://github.com/cociweb/hacs-epson)
+2) Search and Download Epson Printer component with HACS or click on this button:
+
+    [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=cociweb&repository=https%3A%2F%2Fgithub.com%2Fcociweb%2Fhacs-epson)
+
+4) Restart Home Assistant
+5) add configuration to your `configuration.yaml`
 
 ## Configuration
 To add Epson Printer integration to your installation, add the following to your `configuration.yaml` file:
