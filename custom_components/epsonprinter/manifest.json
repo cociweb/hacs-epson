@@ -5,7 +5,7 @@
     "documentation": "https://www.home-assistant.io/integrations/epsonworkforce",
     "iot_class": "local_polling",
     "loggers": ["epsonprinter_pkg"],
-    "requirements": ["epsonprinter-api>=1.0.1"]
+    "requirements": ["epsonprinter-api>=1.0.1"],
     "version": "1.0.0",
     "dependencies": [],
     "homeassistant": "2022.11.0"
